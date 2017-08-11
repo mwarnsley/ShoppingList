@@ -1,0 +1,29 @@
+#cart_container {
+
+  .cart-item-image {
+    height: 75px;
+    max-height: 75px;
+    width: 100%;
+  }
+  .item-name {
+    font-size: 12px;
+  }
+  .cart-item-price {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .item-rating {
+    margin-bottom: 10px;
+
+    .star-icon {
+      color: $dark-orange;
+      font-size: 16px;
+    }
+  }
+  .remove-btn {
+    margin-right: 10px;
+  }
+  .add-btn {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,46 @@
+#results_container {
+
+  .search-results-text {
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+  }
+  #results_list {
+    margin-top: 20px;
+
+    .options-container {
+      margin-top: 30px;
+
+      .add-btn {
+        margin-right: 15px;
+      }
+    }
+  }
+  .result-item {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .item-image {
+    height: 135px;
+    max-height: 135px;
+    width: 85%;
+  }
+  .item-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .item-name {
+    margin-bottom: 10px;
+  }
+  .item-rating {
+    margin-bottom: 10px;
+
+    .star-icon {
+      color: $dark-orange;
+      font-size: 20px;
+    }
+  }
+}

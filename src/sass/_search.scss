@@ -1,0 +1,26 @@
+#search_container {
+
+  &.form-group {
+    margin-bottom: 0;
+  }
+  .search-row {
+    position: relative;
+
+    .item-search-box {
+      height: 50px;
+      font-size: 20px;
+      margin: 0 auto;
+      width: 80%;
+    }
+    .search-btn {
+      border: none;
+      padding: 9px;
+      position: absolute;
+      right: 114px;
+      top: 2px;
+    }
+    .search-icon {
+      font-size: 24px;
+    }
+  }
+}
